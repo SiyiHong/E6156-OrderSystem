@@ -1,6 +1,7 @@
 from flask import Flask, Response, request
 import json
 from OrderDB import OrderDB
+from flask_cors import CORS
 
 # Create the Flask application object.
 app = Flask(__name__)
