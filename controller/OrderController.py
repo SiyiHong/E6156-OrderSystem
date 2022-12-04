@@ -4,6 +4,7 @@ from OrderDB import OrderDB
 
 # Create the Flask application object.
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def hello_world():
